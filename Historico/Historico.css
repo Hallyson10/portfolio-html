@@ -3,11 +3,9 @@ body{
 }
 
 #back{
-  background-color: #0F0F1D;
-  position: relative;
-  height: 120vh;
-  width: 100vw;
-  overflow-y:hidden;
+    height: auto;
+    width: 100vw;
+    background-color: #0F0F1D;
 }
 #container-texts{
   position: relative;
@@ -25,7 +23,6 @@ body{
 
 #container-image{
   height: 20rem;
-  position: absolute;
   z-index: 0;
   margin-top: 5rem;
   opacity: 0.8;
