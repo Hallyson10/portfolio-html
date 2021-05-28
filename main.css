@@ -23,13 +23,12 @@
   .topico :nth-child(1){
     margin-top: 14px;
   }
-  
-  
   #informations h1 h2 p{
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
   }
+  
   
   p{
     color: #9090A0;
@@ -61,6 +60,7 @@
       -webkit-animation-iteration-count: 1;
       animation-iteration-count: 1;
   }
+  
   #header{
     height: 5rem;
     width: 100%;
