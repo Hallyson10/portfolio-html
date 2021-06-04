@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+   font-family: 'Roboto', sans-serif;
+
+}
+
+#container{
+  height: 100VH;
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #aaaaaa;
+}
+
+#conteudo{
+  height: 600px;
+  width: 350px;
+  background-color: #303030;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  border-radius: 30px;
+}
+
+#conteudo h1{
+  font-size: 2rem;
+  text-align: center;
+
+  color: #fff;
+}
+
+#formulario-container{
+  height: auto;
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#formulario-container .item{
+  height: auto;
+  width: 100%;  
+
+  align-items: center;
+  padding-top: 10px;
+  margin-top: 10px;
+  
+  padding-left: 2.5em;
+}
+
+#formulario-container .item span{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: #fff;
+}
+
+.text{
+  height: 45px;
+  width: 85%;
+  margin-top: 5px;
+
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background-color: #ffffff;
+
+  font-size: 1rem;
+}
+
+.botao{
+  height: 55px;
+  width: 85%;
+
+  margin-top: 20px;  
+  
+  border-radius: 5px;
+  background: #fb9300;
+
+  font-size: 1rem;
+  color: #fff;
+}
+
+.botao:hover{
+  color: #fff;
+  background: #000;
+
+  transition-duration: 0.5s;
+}
