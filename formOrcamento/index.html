@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang='pt-BR'>
+<head>
+    <title>Orçamento</title>
+    <meta charset='uft-8'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="../images/video.mp4" type="video/mp4">
+      </video>
+      <div class="container-all">
+          <div class="subContainer">
+      <!-- Optional: some overlay text to describe the video -->
+      <div class="header">
+        <h1 class="title">Faça seu orçamento com a gente!</h1>
+        <p class="subTitle">Como podemos te ajudar?</p>
+        <!-- Use a button to pause/play the video with JavaScript -->
+      </div>
+
+      <form class="form">
+          <fieldset class="grupo">
+              <div class="container-nome">
+                  <label class="text-title" for="nome">Nome</label>
+                  <input required type="text" nome="nome" id="nome">
+              </div>
+              <div class="container-nome">
+                <label class="text-title" for="email">E-mail</label>
+                <input required type="email" nome="email" id="email">
+            </div>
+          </fieldset>
+          <div class="servicos">
+              <br>
+              <label class="text-title">Quais dos nossos serviços você deseja?</label>
+              <label>
+                  <input type="radio" name="mobile" value="applicationMobile">Desenvolvimento de aplicativo para dispositivos móveis
+              </label>
+              <label>
+                <input type="radio" name="web" value="applicationWeb">Desenvolvimento de aplicativo para Web
+            </label>
+            <label>
+                <input type="radio" name="webMobile" value="applicationWebMobile">Desenvolvimento de aplicativo para Web e para dispositivos móveis
+            </label>
+          </div>
+          <div class="segmento">
+            <br>
+              <label class="text-title">Qual o segmento da sua aplicação?</label>
+              <select class="segmento">
+                <option selected disabled id="">Selecione uma das opções abaixo</option>
+                <option>Vendas,Comércio, Clínicas e afins.</option>
+                <option>Banco,Carteira digital e afins.</option>
+                <option>Mercado financeiro,Carteira digital e afins.</option>
+                <option>Outros.</option>
+              </select>
+          </div>
+          <fieldset class="grupo">
+              <div class="segmento">
+                  <br>
+                  <label class="text-title">
+                      Quais dos requisitos você considera importante para sua aplicação? 
+                  </label>
+                  <div class="align-check">
+                  <input type="checkbox" id="beneficio1" name="beneficio1" value="HTML">
+                  <label for="beneficio1">Segurança e privacidade</label>
+                    </div>
+                    <div class="align-check">
+                  <input type="checkbox" id="beneficio2" name="beneficio2" value="HTML1">
+                  <label for="beneficio2">Qualidade e robustez</label>
+                </div>
+                <div class="align-check">
+                  <input type="checkbox" id="beneficio3" name="beneficio3" value="HTML2">
+                  <label for="beneficio3">Visual inovador e funcional</label>
+                </div>
+                <div class="align-check">
+                  <input type="checkbox" id="beneficio4" name="beneficio4" value="HTML3">
+                  <label for="beneficio4">Disponibilidade e alta escala</label>
+                </div>
+              </div>
+          </fieldset>
+          <div class="segmento">
+              <br>
+              <label class="text-title">Conte um pouco sobre sua idéia</label>
+              <textarea style="resize: none" required rows="6" id="ideia" name="ideia"></textarea>
+              <button class="botao" type="submit">CONLCUIR</button>
+          </div>
+      </form>
+    </div>
+    </div>
+ </body>
+</html>

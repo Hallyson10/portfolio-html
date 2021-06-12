@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1
+  }
+  
+.title{
+    font-family: sans-serif;
+    color:#8080F3;
+    text-align: center;
+}
+.subTitle{
+    font-family: sans-serif;
+    color:#8080F3;
+    text-align: center;
+}
+/* fieldset{
+    border:0
+}
+body{
+    background-color: #f0f8ff;
+    font-family: sans-serif;
+    font-size: 1em;
+    color:#8080F3;
+    margin-left:36%;
+    margin-top:2%;
+    justify-content: center;
+}
+input,select,button,textarea{
+    border-radius: 5px;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.grupo{
+    flex-direction: column;
+    flex:1;
+    display: flex;
+} */
+.container-nome{
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
+.servicos{
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
+.segmento{
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
+
+.container-all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.subContainer{
+    width: 40%;
+    padding:4%;
+    background-color: #0F0F1D;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+}
+fieldset{
+    border:0
+}
+.header{
+    flex:1;
+    align-items: center;
+    justify-content: center;
+}
+.botao{
+    background-color: #8080F3;
+    color:#0F0F1D;
+    height: 48px;
+    border:0;
+    margin-top:10px
+}
+input{
+    margin:0 12px 0 0;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+}
+.form{
+    flex:1;
+    padding:20px;
+    align-items: center;
+    background-color: #fff;
+    margin:20px;
+    border-radius: 20px;
+}
+.text-title{
+    font-size: 1em;
+    color:#8080F3;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom:10px ;
+}
+.align-check label{
+    font-size: 0.8em;
+    color:#0F0F1D;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.segmento option{
+    font-size: 0.8em;
+    color:#0F0F1D;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.servicos label{
+    font-size: 0.8em;
+    color:#0F0F1D;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
